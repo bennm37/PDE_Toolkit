@@ -2,17 +2,18 @@
 ## Overview
 The PDE Toolkit class allows you to quickly generate numerical fourier series, sample data for a given xrange and trange and animate this data for the wave and diffusion equations with Neumann and Dirichlet boundary conditions. 
 ## The Maths 
-PDE Toolkit supports 4 equation types in 1D:
+PDE Toolkit will support 4 equation types in 1D:
 ### Homogeneous Diffusion Equation
-$$u_t(x,t)=Du_{xx}(x,t)$$
+u<sub>t</sub>(x,t)= Du<sub>xx</sub>(x,t) \
 This has general solution
-$\begin{align}
-x=1
-\end{align}$
+
 ### Inhomogeneous Diffusion Equation
-$$u_t(x,t)=Du_{xx}(x,t)+f(x,t)$$
+u<sub>t</sub>(x,t)= Du<sub>xx</sub>(x,t)+f(x,t) 
+
 ### Homogeneous Wave Equation
-$$u_{tt}(x,t)=c^2u_{xx}(x,t)$$
+u<sub>tt</sub>(x,t)= c<sup>2</sup>u<sub>xx</sub>(x,t) 
+
 ### Homogeneous Diffusion Equation
-$$u_{tt}(x,t)=c^2u_{xx}(x,t)+f(x,t)$$
+u<sub>tt</sub>(x,t)= c<sup>2</sup>u<sub>xx</sub>(x,t)+f(x,t) 
+
 
